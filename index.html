@@ -1,0 +1,114 @@
+<!DOCTYPE HTML>
+<html>
+ <head>
+ <meta charset="utf-8">
+ <title>HTML</title>
+ <link href="style.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+  <table>
+	<tr>
+    <th class="one_1">
+    	<form>
+    	<select name="var" tabindex="3">
+    		<option selected>Вариант №1</option>
+    		<option>Вариант №2</option>
+    		<option>Вариант №3</option>
+    		<input type="submit" value="Отправить">
+    	</select>
+    </form>
+    </th>
+    <th class="one_2">
+    	<form>
+    	<select name="select" size="6" multiple>
+    <option selected value="s1">Вариант №1</option>
+    <option value="s2">Вариант №2</option>
+    <option value="s3">Вариант №3</option>
+    <option value="s4">Вариант №4</option>
+    <option value="s5">Вариант №5</option>
+    <option value="s6">Вариант №6</option>
+    <input type="submit" value="Отправить">
+       </select>
+   </form>
+    </th>
+    <th class="one_3">
+    	<form action="#">
+      <label>Укажите возраст:</label>
+        <input type="number" value="4">
+    </form>
+    </th>
+    <th class="one_4">
+    	<form action="#">
+    		<select name="select" size="2">
+    <option selected value="s1">Вариант №1</option>
+    <option value="s2">Вариант №2</option>
+            </select>
+        </form>
+ </th>
+  </tr>
+  <tr>
+    <td>
+    	<form>
+    		<label>Размер рисунка: <input type="range" min="1" max="5" id="size" 
+     oninput="sizePic()" value="3"></label>
+      <p><img src="img/ronaldo.jpg" alt="ronaldo" id="pic"></p>
+    	</form>
+    </td>
+    <td>
+    	<form>
+   <label><input type="button" value="Очистить"></label>
+  </form>
+    </td>
+    <td>
+    	<form>
+   <label><input type="search" name="q" placeholder="Поиск по сайту"> 
+   <input type="submit" value="Найти"></label>
+  </form>
+    </td>
+    <td>
+    	<form action="#">
+   <label>Укажите цвет фона: <input type="color" name="bg" value="#ff0000">
+   <input type="submit" value="Выбрать"></label>
+  </form>
+    </td>
+  </tr>
+  <tr>
+  	<th class="one_9">
+  		<form action="#">
+   <legend>Укажите</legend>
+    <label><input name="radio" type="radio" value="nedzen"><b>Radtttio BUTTON</b><br></label>
+    <label><input name="radio" type="radio" value="dzen"><b>Radio BUTTON</b><br></label>
+    <label><input name="radio" type="radio" value="pdzen" checked><b>Radio BUTTON</b><br></label>
+    <label><input type="submit" value="Выбрать"></label>
+  </form> 
+  	</th>
+  	<th class="one_10">
+  		<form action="#">
+  <legend><b>Введите текст:</b></legend>
+  <p><textarea name="comment"></textarea></p>
+  <label><input type="submit"></label>
+ </form>
+  	</th>
+  	<th class="one_11">
+  		<form action="#">
+   <legend>Укажите дату</legend>
+   <label><input type="checkbox" name="a" value="2010">2010</label><br>
+   <label><input type="checkbox" name="a" value="2014">2014</label><br>
+   <label><input type="checkbox" name="a" value="2017">2017</label><br>
+   <label><input type="checkbox" name="a" value="2019">2019</label><br>
+   <label><input type="submit" value="Отправить"></label>
+  </form>
+  	</th>
+  	<th class="one_12">
+     <form enctype="multipart/form-data" method="#">
+   <legend>Загрузите фотографии</legend>
+   <label><input type="file" name="photo" multiple accept="image/*,image/jpeg">
+   <input type="submit" value="Отправить"></label>
+  </form> 
+    </th>
+  </tr>
+  </table>
+</body>
+</html>
+
+
